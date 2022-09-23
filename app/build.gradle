@@ -41,11 +41,13 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:30.5.0')
     implementation 'com.google.firebase:firebase-analytics:21.1.1'
     implementation 'com.google.firebase:firebase-database:20.0.6'
+    implementation 'com.google.firebase:firebase-auth:21.0.8'
 
 
     // Chatkit
     implementation 'io.getstream:stream-chat-android-offline:5.10.0'
     implementation 'com.github.stfalcon-studio:Chatkit:0.4.1'
+
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
