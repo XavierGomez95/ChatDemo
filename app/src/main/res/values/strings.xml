@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ChatDemo</string>
 
+
     <string name="login_button">Login</string>
     <string name="sign_up_button">Sign Up</string>
     <string name="email_edit_text">Email</string>
