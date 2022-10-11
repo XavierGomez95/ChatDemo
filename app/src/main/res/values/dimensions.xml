@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="splash_image_top">-200dp</dimen>
+    <dimen name="splash_image_top_end">20</dimen>
+    <dimen name="splash_image_top_start">80dp</dimen>
 </resources>

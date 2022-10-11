@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.androidpprog2.chatdemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,7 +16,12 @@
         android:theme="@style/Theme.ChatDemo"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activity.LoginActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".view.activity.SplashScreenActicvity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
